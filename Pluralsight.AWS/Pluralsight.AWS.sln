@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.AWS.IAM.Native.WinUI", "Pluralsight.AWS.IAM.Native.WinUI\Pluralsight.AWS.IAM.Native.WinUI.csproj", "{8B4F6647-1737-4E0E-994B-22299A4C74E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.AWS.Utils", "Pluralsight.AWS.Utils\Pluralsight.AWS.Utils.csproj", "{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IAM", "IAM", "{4428D474-08C8-4AE1-9185-9B003FB3EA20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EC2", "EC2", "{2100DD8B-B386-4B9D-B7D0-FB2E2D41BA4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EBS", "EBS", "{B3BCAFB8-7D7E-4630-BC5C-5AF5F994270B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3", "S3", "{592B994D-867D-4216-A4E2-F8E23F3F6D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B4F6647-1737-4E0E-994B-22299A4C74E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4F6647-1737-4E0E-994B-22299A4C74E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4F6647-1737-4E0E-994B-22299A4C74E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4F6647-1737-4E0E-994B-22299A4C74E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B4F6647-1737-4E0E-994B-22299A4C74E1} = {4428D474-08C8-4AE1-9185-9B003FB3EA20}
+	EndGlobalSection
+EndGlobal
