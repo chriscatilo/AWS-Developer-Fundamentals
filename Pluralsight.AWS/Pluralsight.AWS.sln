@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EBS", "EBS", "{B3BCAFB8-7D7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3", "S3", "{592B994D-867D-4216-A4E2-F8E23F3F6D38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralsight.AWS.IAM.NetSdk.WinUI", "Pluralsight.AWS.IAM.NetSdk.WinUI\Pluralsight.AWS.IAM.NetSdk.WinUI.csproj", "{82635B3B-218B-47B4-86C1-55520CB08838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,16 @@ Global
 		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E45BF706-F9FC-4AEC-889F-A0640EE6A8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82635B3B-218B-47B4-86C1-55520CB08838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82635B3B-218B-47B4-86C1-55520CB08838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82635B3B-218B-47B4-86C1-55520CB08838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82635B3B-218B-47B4-86C1-55520CB08838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8B4F6647-1737-4E0E-994B-22299A4C74E1} = {4428D474-08C8-4AE1-9185-9B003FB3EA20}
+		{82635B3B-218B-47B4-86C1-55520CB08838} = {4428D474-08C8-4AE1-9185-9B003FB3EA20}
 	EndGlobalSection
 EndGlobal
